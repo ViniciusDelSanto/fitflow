@@ -1,0 +1,69 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+.expo-cache/
+
+# React Native
+android/.gradle/
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.keystore
+*.pem
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+jest-cache/
+jest-coverage/
+.nyc_output/
+
+# Metro & Watchman
+.metro/
+.watchmanconfig
+
+# Logs
+logs/
+*.log
+
+# Misc
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
