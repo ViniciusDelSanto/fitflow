@@ -11,52 +11,6 @@ FitFlow é um aplicativo móvel desenvolvido em React Native com Expo para gest�
 - Personalizar planos de treino baseados em dados reais de recuperação
 - Prevenir lesões através do acompanhamento da carga de treinamento
 - Otimizar o desempenho atlético com base em zonas de treinamento precisas
-
----
-
-## 🏗️ Arquitetura do Projeto
-
-### Estrutura de Pastas Completa
-
-\`\`\`
-MobileFitnessManagementApp/
-├── App.js                          # Ponto de entrada principal com navegação
-├── app.json                        # Configuração do Expo
-├── babel.config.js                 # Configuração do Babel para React Native
-├── package.json                    # Dependências e scripts do projeto
-│
-├── src/
-│   ├── screens/                    # 13 telas do aplicativo
-│   │   ├── SplashWelcome.js       # Tela inicial com animações
-│   │   ├── AuthLogin.js           # Autenticação com remember me
-│   │   ├── AtletaHome.js          # Dashboard do atleta com progresso semanal
-│   │   ├── TreinadorDashboard.js  # Dashboard do treinador com ESR global
-│   │   ├── ESRModal.js            # Modal de registro ESR com slider
-│   │   ├── SessionsList.js        # Lista de sessões com filtros
-│   │   ├── SessionDetail.js       # Detalhes da sessão com timer
-│   │   ├── History.js             # Histórico com gráficos interativos
-│   │   ├── ProfileAtleta.js       # Perfil com sincronização de saúde
-│   │   ├── MessagesInbox.js       # Mensagens com envio otimista
-│   │   ├── AthleteDetailTreinador.js  # Detalhes do atleta para treinador
-│   │   ├── PlanEditor.js          # Editor de plano com duplicação
-│   │   └── AssessmentCreate.js    # Criação de avaliação com peso opcional
-│   │
-│   ├── components/                 # 6 componentes reutilizáveis
-│   │   ├── Icons.js               # 15+ ícones SVG customizados
-│   │   ├── Toast.js               # Sistema de notificações toast
-│   │   ├── LoadingButton.js       # Botão com estado de loading
-│   │   ├── FilterChips.js         # Chips de filtro horizontais
-│   │   ├── EmptyState.js          # Estado vazio com emoji e CTA
-│   │   └── OfflineBanner.js       # Banner de modo offline
-│   │
-│   └── theme/                      # Sistema de design tokens
-│       ├── colors.js              # Paleta completa + dark mode
-│       ├── typography.js          # Hierarquia tipográfica
-│       └── spacing.js             # Sistema de espaçamento 8px
-│
-└── README.md                       # Documentação completa
-\`\`\`
-
 ---
 
 ## 🎨 Design System Completo
@@ -559,24 +513,6 @@ npx expo start --ios
 
 ---
 
-## 📦 Dependências Principais
-
-\`\`\`json
-{
-  "expo": "~52.0.0",
-  "react": "18.3.1",
-  "react-native": "0.76.5",
-  "@react-navigation/native": "^7.0.0",
-  "@react-navigation/stack": "^7.0.0",
-  "@react-navigation/bottom-tabs": "^7.0.0",
-  "react-native-gesture-handler": "~2.20.0",
-  "react-native-reanimated": "~3.16.0",
-  "react-native-svg": "15.9.0",
-  "react-native-safe-area-context": "4.12.0",
-  "react-native-screens": "~4.4.0"
-}
-\`\`\`
-
 ## 🧪 Scripts Disponíveis
 
 \`\`\`bash
@@ -595,39 +531,13 @@ npm run web
 
 ---
 
-## 🎯 Funcionalidades Futuras
-
-### Fase 2
-- [ ] Integração com wearables (Google Fit, Apple Health)
-- [ ] Notificações push para lembretes de ESR
-- [ ] Chat em tempo real entre atleta e treinador
-- [ ] Gráficos avançados de evolução
-
-### Fase 3
-- [ ] Análise psicológica e motivacional
-- [ ] Ajustes baseados no ciclo menstrual (atletas femininas)
-- [ ] Integração com assistentes de voz
-- [ ] Modo offline com sincronização (em desenvolvimento)
-
-### Fase 4
-- [ ] Marketplace de planos de treino
-- [ ] Comunidade de atletas
-- [ ] Gamificação e conquistas
-- [ ] Exportação de relatórios PDF
-
----
-
-## 📚 Documentação Adicional
-
-- [FLUXO_USUARIOS.md](./FLUXO_USUARIOS.md) - Fluxos detalhados de navegação para atletas e treinadores
-
----
-
 ## 👥 Equipe
 
 **Autores:**
 - Ana Carolina dos Santos Pio
 - Vinícius Del Santo Campos da Silva
+- Maria Eduarda Coelho Barbosa Rocha
+- Raphael Salgueiro de Souza
 
 **Instituição:** Universidade de Vassouras  
 **Curso:** Engenharia de Software  
@@ -640,11 +550,3 @@ npm run web
 Este projeto é parte de um Trabalho de Conclusão de Curso (TCC) e está protegido por direitos autorais acadêmicos.
 
 ---
-
-## 📞 Suporte
-
-Para dúvidas ou sugestões, entre em contato através do repositório do projeto.
-
----
-
-**Última atualização:** Janeiro 2025
